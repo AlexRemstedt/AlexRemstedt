@@ -1,0 +1,2 @@
+" Abbreviations
+iabbr adn and

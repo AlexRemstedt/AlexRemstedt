@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/alex/proj/ShipBuilding/classes/MT2430'
+let g:netrw_dirhist_6='/home/alex/proj/ShipBuilding/classes'
+let g:netrw_dirhist_5='/home/alex/proj/ShipBuilding/classes/MT2431'
+let g:netrw_dirhist_4='/home/alex/proj/ShipBuilding/classes'
+let g:netrw_dirhist_3='/home/alex/proj/ShipBuilding'
+let g:netrw_dirhist_2='/home/alex/proj/ShipBuilding/classes/MT2431'
+let g:netrw_dirhist_1='/home/alex/proj/ShipBuilding/classes'
+let g:netrw_dirhist_0='/home/alex/proj/ShipBuilding/classes/MT2431'
+let g:netrw_dirhist_9='/home/alex/proj/ShipBuilding/classes'
+let g:netrw_dirhist_8='/home/alex/proj/ShipBuilding'
