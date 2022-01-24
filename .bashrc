@@ -93,6 +93,8 @@ alias la='ls -A'
 alias l='ls -CF'
 alias clip=clip.exe
 alias py=python3
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -119,4 +121,9 @@ if ! shopt -oq posix; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Track config files.
 alias config='/usr/bin/git --git-dir=/home/alex/.cfg/ --work-tree=/home/alex'
+
+# add starship
+eval "$(starship init bash)"
