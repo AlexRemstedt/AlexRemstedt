@@ -123,7 +123,7 @@ fi
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # Track config files.
-alias config='/usr/bin/git --git-dir=/home/alex/.cfg/ --work-tree=/home/alex'
+alias cf='/usr/bin/git --git-dir=/home/alex/.cfg/ --work-tree=/home/alex'
 
 # add starship
 eval "$(starship init bash)"
