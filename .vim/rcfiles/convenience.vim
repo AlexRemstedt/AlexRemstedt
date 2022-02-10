@@ -2,7 +2,7 @@
 
 " Special Colorcolumn https://youtu.be/aHm36-na4-4
 highlight ColorColumn ctermbg=magenta
-call matchadd('ColorColumn', '\%80v', 100)
+call matchadd('ColorColumn', '\%81v', 100)
 
 " Use C-Space to Esc out of any mode.
 nnoremap <C-Space> <Esc>:nohl<cr>
