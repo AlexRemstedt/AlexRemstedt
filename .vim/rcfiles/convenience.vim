@@ -17,4 +17,42 @@ onoremap <C-@> <Esc>
 cnoremap <C-@> <C-c>
 inoremap <C-@> <Esc>
 
+" Jump to closest bracket
+
+nnoremap ci[ f[ci[
+nnoremap ca[ f[ca[
+nnoremap di[ f[di[
+nnoremap da[ f[da[
+nnoremap yi[ f[yi[
+nnoremap ya[ f[ya[
+nnoremap vi[ f[vi[
+nnoremap va[ f[va[
+
+nnoremap ci{ f{ci{
+nnoremap ca{ f{ca{
+nnoremap di{ f{di{
+nnoremap da{ f{da{
+nnoremap yi{ f{yi{
+nnoremap ya{ f{ya{
+nnoremap vi{ f{vi{
+nnoremap va{ f{va{
+
+nnoremap ci< f<ci<
+nnoremap ca< f<ca<
+nnoremap di< f<di<
+nnoremap da< f<da<
+nnoremap yi< f<yi<
+nnoremap ya< f<ya<
+nnoremap vi< f<vi<
+nnoremap va< f<va<
+
+nnoremap ci( f(ci(
+nnoremap ca( f(ca(
+nnoremap di( f(di(
+nnoremap da( f(da(
+nnoremap yi( f(yi(
+nnoremap ya( f(ya(
+nnoremap vi( f(vi(
+nnoremap va( f(va(
+
 nnoremap <leader>df :Files ~/code/dotfiles<CR>
