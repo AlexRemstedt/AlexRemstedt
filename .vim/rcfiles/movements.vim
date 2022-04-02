@@ -1,16 +1,19 @@
 " Movements: Navigation within and between files.
 
+" Search down into subfolders
+" Provides tab-completion for all file related tasks
+set path+=**
+
 " Section: file navigation
-nnoremap <leader>n :Ex<CR>
+nnoremap <leader>n :Lex<CR>
 nnoremap \f :Files<CR>
 nnoremap \b :Buffers<CR>
+nnoremap \a :Files ~<CR>
 
 " Section: Within documents
 " move text
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
-inoremap <c-j> <esc>:m .+1<CR>==
-inoremap <c-k> <esc>:m .-2<CR>==
 nnoremap <leader>j :m .+1<CR>==
 nnoremap <leader>k :m .-2<CR>==
 

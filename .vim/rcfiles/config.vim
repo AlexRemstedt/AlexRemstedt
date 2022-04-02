@@ -49,7 +49,6 @@ nnoremap <leader>w :w<CR>
 vnoremap <leader>s :sort<CR>
 nnoremap <leader>ss :sort<CR>
 nnoremap <leader>h "xyiw:help <C-R>x<CR>
-nnoremap <C-l> :noh<CR>
 
 " search and replace innerword
 nnoremap <leader>siw "xyiw:s/<C-R>x/ 
