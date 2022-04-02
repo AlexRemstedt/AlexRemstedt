@@ -93,6 +93,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias clip=clip.exe
 alias py=python3
+alias s=explorer.exe
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
@@ -124,6 +125,12 @@ fi
 
 # Track config files.
 alias cf='/usr/bin/git --git-dir=/home/alex/.cfg/ --work-tree=/home/alex'
+
+man() {
+    /usr/bin/man "$@" | \
+        col -b | \
+        vim -R -c 'set ft=man nomod nolist' -
+}
 
 # add starship
 eval "$(starship init bash)"
