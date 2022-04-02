@@ -1,3 +1,4 @@
+# inserts a blank line between shell prompts
 add_newline = false
 
 [line_break]
@@ -19,7 +20,7 @@ $character """
 style = "blue"
 
 [character]
-success_symbol = "[❯](purple)"
+success_symbol = "[❯](117)"
 error_symbol = "[❯](red)"
 vicmd_symbol = "[❮](green)"
 
