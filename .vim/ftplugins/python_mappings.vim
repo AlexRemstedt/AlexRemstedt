@@ -1,4 +1,17 @@
 " Python remaps.
-nnoremap \py :set ft=python<bar> -1 read ~/.vim/.snippets/python_standard.py<CR>3li
-nnoremap <leader>p yiwoprint(f"{<C-O>p=}")<ESC>
+
+func! PythonStandard()
+    set ft=python
+    normal gg
+    0 read ~/.vim/.snippets/python_standard.py
+    normal 3l
+endfunc
+
+inoremap \py <ESC>:call PythonStandard()<CR>i
+
+augroup pythonSnippets
+    autocmd!
+    autocmd FileType python nnoremap <leader>p yiwoprint(f"{<C-O>p=}")<ESC>
+augroup end
+
 

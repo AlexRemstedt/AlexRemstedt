@@ -12,19 +12,18 @@ nnoremap \es :FZF ~/.vim/.snippets/<CR>
 
 set splitbelow splitright  " Split to the bottom and the right standard.
 "set nowrap  " Turnoff wrapping
-set shortmess+=I  " Disable the opening message of vim.  
 syntax on  " Turn on syntax 
 set autoindent  " Automatically indent when going to insert mode.  
 set guifont=JetBrains\ Mono  " Set the font to JetBrains Mono.  
 set incsearch  " Show where pattern is when searching.  
 set ignorecase " Make searching case-sensitive when capitals are used.
 set smartcase
-set hlsearch  " Add highlighting to searching. !<C-L> to turnoff!
+set hlsearch  " Add highlighting to searching. !<C-2> to turnoff!
 set hidden  " Disable protection for hidden buffers.  
 set belloff=all  " Turn off all bells in vim.  
-set updatetime=50  " Set screen updatetime to 50ms.
+set updatetime=20  " Set screen updatetime to 20ms.
 set wildmenu  " Shows menu when tab is pressed in command-mode
-set laststatus=2  " Always show statusline at the bottom.
+set laststatus=1  " Only when more than 2 windows show statusline at bottom.
 set backspace=2  " Allow to us backspace in all scenarios.
 
 " Turn bells off

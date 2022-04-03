@@ -54,5 +54,3 @@ nnoremap yi( f(yi(
 nnoremap ya( f(ya(
 nnoremap vi( f(vi(
 nnoremap va( f(va(
-
-nnoremap <leader>df :Files ~/code/dotfiles<CR>

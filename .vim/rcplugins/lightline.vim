@@ -1,3 +1,3 @@
 " Lightline.vim
 
-Plug 'itchyny/lightline.vim'
+"Plug 'itchyny/lightline.vim'
