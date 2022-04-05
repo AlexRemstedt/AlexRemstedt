@@ -125,6 +125,7 @@ fi
 
 # Track config files.
 alias cf='/usr/bin/git --git-dir=/home/alex/.cfg/ --work-tree=/home/alex'
+alias cht='cht.sh --shell'
 
 man() {
     /usr/bin/man "$@" | \
