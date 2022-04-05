@@ -9,6 +9,12 @@ nnoremap <leader>n :Lex<CR>
 nnoremap \f :Files<CR>
 nnoremap \b :Buffers<CR>
 nnoremap \a :Files ~<CR>
+nnoremap \m :Marks<CR>
+nnoremap \h :History<CR>
+nnoremap \c :Commits<CR>
+
+" QuickFix
+" set errorfile = errors.err
 
 " Section: Within documents
 " move text
