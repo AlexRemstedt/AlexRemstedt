@@ -38,4 +38,3 @@ call plug#end()
 call s:SourceConfigFilesIn('ftplugins')
 call s:SourceConfigFilesIn('rcfiles')
 call s:SourceProjConfigFiles()
-

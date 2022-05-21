@@ -23,7 +23,6 @@ set hidden  " Disable protection for hidden buffers.
 set belloff=all  " Turn off all bells in vim.  
 set updatetime=20  " Set screen updatetime to 20ms.
 set wildmenu  " Shows menu when tab is pressed in command-mode
-set laststatus=1  " Only when more than 2 windows show statusline at bottom.
 set backspace=2  " Allow to us backspace in all scenarios.
 
 " Turn bells off
@@ -37,17 +36,11 @@ set expandtab
 set shiftwidth=4
 
 " Linenumbers
-set number
-augroup numbertoggle
-    autocmd!
-    autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
-    autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
-augroup END
+set number relativenumber
 
 nnoremap <leader>w :w<CR>
-vnoremap <leader>s :sort<CR>
 nnoremap <leader>ss :sort<CR>
-nnoremap <leader>h "xyiw:help <C-R>x<CR>
+vnoremap <leader>s :sort<CR>
 
 " search and replace innerword
 nnoremap <leader>siw "xyiw:s/<C-R>x/ 

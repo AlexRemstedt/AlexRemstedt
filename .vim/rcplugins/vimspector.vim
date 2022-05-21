@@ -4,7 +4,6 @@ Plug 'puremourning/vimspector'
 Plug 'szw/vim-maximizer'
 
 " Debugger remaps
-nnoremap <leader>m :MaximizerToggle!<CR>
 nnoremap <leader>dd :call vimspector#Launch()<CR>
 nnoremap <leader>dc :call win_gotoid(g:vimspector_session_windows.code)<CR>
 nnoremap <leader>dt :call win_gotoid(g:vimspector_session_windows.tagpage)<CR>

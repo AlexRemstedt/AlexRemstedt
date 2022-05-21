@@ -1,3 +1,3 @@
 " Sneak Navigation
 
-Plug 'justinmk/vim-sneak'
+ "Plug 'justinmk/vim-sneak'

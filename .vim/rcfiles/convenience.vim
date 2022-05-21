@@ -1,7 +1,7 @@
 " Convenience - configs & mappings to smooth out rough edges and make vim feel like home. 
 
 " Special Colorcolumn https://youtu.be/aHm36-na4-4
-highlight ColorColumn ctermbg=magenta
+highlight ColorColumn ctermbg=darkgrey
 call matchadd('ColorColumn', '\%81v', 100)
 
 " Use C-Space to Esc out of any mode.

@@ -25,6 +25,7 @@ augroup end
 
 augroup LatexSnippets
     autocmd!
+    autocmd FileType tex inoremap  \textbf{}h
     autocmd FileType tex inoremap ;f <ESC>:call TexFigure()<CR>
     autocmd FileType tex inoremap ;t <ESC>:call TexTable()<CR> 2jf<ci}
 augroup end

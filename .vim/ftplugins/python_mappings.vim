@@ -7,7 +7,7 @@ func! PythonStandard()
     normal 3l
 endfunc
 
-inoremap \py <ESC>:call PythonStandard()<CR>i
+inoremap ;py <ESC>:call PythonStandard()<CR>i
 
 augroup pythonSnippets
     autocmd!
